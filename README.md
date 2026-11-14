@@ -1,8 +1,8 @@
-# Muse Custom Connector: Microsoft 365 Work Email (Microsoft Graph)
+# Muse Custom Connector: Microsoft 365 Mail (Microsoft Graph)
 
-Give your Muse access to your Microsoft 365 work or school mailbox: read, search, triage, and, behind strict approval guardrails, send. This is a custom connector for [Muse](https://muse.ai) built on the Microsoft Graph API.
+Give your Muse access to a Microsoft 365 mailbox in your Entra ID tenant: read, search, triage, and, behind strict approval guardrails, send. This is a custom connector for [Muse](https://muse.ai) built on the Microsoft Graph API.
 
-**Why this exists:** Muse's built-in mail connection only supports personal Microsoft accounts. If your real mailbox lives in a Microsoft 365 tenant (Entra ID), sign-in is declined. This connector is the workaround: your own app registration in your own tenant, delegated permissions, and Muse's secure credential store holding the OAuth credential.
+**Why this exists:** Muse's built-in mail connection only supports sign-in with an MSA, a personal Microsoft account. If your mailbox lives in a Microsoft 365 tenant under an Entra ID account, sign-in is declined. This connector is the workaround: your own app registration in your own tenant, delegated permissions, and Muse's secure credential store holding the OAuth credential.
 
 It runs inside Muse. The helper script relies on Muse's credential handling to swap in a live access token, so it is a connector package for Muse users, not a standalone email library.
 

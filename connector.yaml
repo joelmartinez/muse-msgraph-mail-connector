@@ -3,4 +3,4 @@ title: "Microsoft Graph Mail (Entra tenant)"
 description: "Read, search and send mail in one Microsoft 365 tenant through Microsoft Graph, acting as the connected user."
 include_in_prompt: true
 require_auth: true
-aliases: ["Entra mail", "Microsoft 365 work email", "Graph mail"]
+aliases: ["Entra mail", "Microsoft 365 mail", "Graph mail"]
